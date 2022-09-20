@@ -1,54 +1,262 @@
 <html>
-    <head>
-       <title>My Selfie App</title>
- <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
 
-<link href="style.css" rel="stylesheet">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Angry birds 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
- 
-<body>
-    <div class="container">
-    <center>
-        <h1>Voice Selfie App 
-<img id="not_so_frozen_after_work" src="https://www.needfunny.net/needfunny-img/2016/funnythings/funny-photos-27.jpg">
-        </h1>
-        <hr>
-        <h4 style="color:red;">Please press allow as soon as popup comes. After you give a voice command. Warning: using this selfie app can give you irritation. use at your own risk.</h4>
-        
-        <div class="form-group">
-            <h3>Say "take my Foto"</h3>
-            <label>Your foto output : </label>
-<textarea name="" id="textbx" cols="30" rows="10" class="form-control" read only="true"></textarea>
+
+<body id="b">
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
-<button type="button" class="button" onclick="badSelfie()">The button</button>
-        <p>Press the The button</p>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="links"><a href="#sec1">About</a></li>
+                <li class="links"><a href="#vid">Videos</a></li>
+                <li class="links"><a href="#write"> Cast</a></li>
 
-        <label>Your webcam : </label>
-<div id="spiderCam"></div>
+            </ul>
+        </div>
+    </nav>
+    <center>
+        <section id="sec1">
+            <div>
+                <img style="width:1000px; height: 400px ;border-radius:40px;"
+                    src="https://c.tenor.com/b57ZZJX9EccAAAAC/tenor.gif">
+            </div>
+        </section>
+        <div id="announcement">
+            <h1>Plot</h1>
+            <br>
+            <h2>So after Red saves the eggs from the wicked pigs in the first movie, He is portayed as a hero and
+                everyone loves him, but it is does not end there, the pigs have declared a prank war agianst bird
+                island. After some days the pigs finde evidence of another island that is launching giant boulders of
+                ice on both the islands. The pigs and birds have made a treaty to disable the superweapon on the mystery
+                island.</h2>
 
+            <img class="image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaJQAr3117OAxv_VjMn8bS48IvK8TjhWnHJg&usqp=CAU">
+            <br>
+            <h1>Genre , Production company, nationalaty, release, age rating and e.t.c</h1>
+            <h2>Angry Birds 2 is an animated action comedy film, the company that made it was rovio entertainment, it
+                was made in finland and was released on ninth august 2019, the official age rating is PG, This movie is
+                a sequal of the previous one and it is based on the game series angry birds, music= Heitor Pereira, who
+                previously composed the first film, returned to compose the score of The Angry Birds Movie 2. On July
+                25, 2019, Kesha released her song "Best Day" for the film as a single. Days later, Luke Combs
+                released a song, "Let's Just Be Friends" for the film as a single as well. Both singles were played
+                in the film's end credits.
 
+                Also included on the film was Giacomo Puccini's aria “Un bel di vedremo” from his opera Madama
+                Butterfly. However this was credited as “Opera”, by Heitor Pereira in the soundtrack, animation= Unlike
+                the previous film, animationthe sequel was co-produced with Rovio Animation and Sony Pictures Animation.
+                While it was possible to reuse assets from the first film instead of starting from scratch, </h2>
+            <br>
+
+            <h1>Awards</h1>
+            <h2>The film won a kid's choice award and was a nomineee for favourite animated movie and also favourite
+                family movie</h2>
+
+            <h1>My opinion</h1>
+            <h2>Personally, I was extremely thrilled to see the second movie in the cinema because I love tha game
+                seiries and when i found out about the movies i got
+                hyped and after seeing the movie I would give it 5 out of 5, the story isn't complex and the humor is
+                easy to understand.</h2>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <br>
 
-        <label>Your most likely terrible photo Will Display Here: </label>
-<div  class="R" id="result" onmouseover="f1()"></div> 
-<br>
-<div  class="R" id="result2"onmouseover="f2()"></div> 
-<br>
-<div  class="R" id="result3"onmouseover="f3()"></div> 
-<br>
-    </center>
-    <div id="credits" >
-            Web designer- Shreesh Singh, Devoleped by- Shreesh Singh, Tester- Shreesh Singh
-            </div>
-            <b>Special thanks to Shreesh Singh</b>
-    
-    </div>
+        <section id="vid">
+            <h1>videos</h1>
+            <span>
+            <br>
+            <h2>Official trailer</h2>
+            <iframe width="490" height="265" src="https://www.youtube.com/embed/RDj8Y2K0ODA"
+                title="THE ANGRY BIRDS MOVIE 2 - Final Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <br>
+            <h2>Bathroom hiest scene</h2>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/WavZVQM3U00"
+                title="The Angry Birds Movie 2 (2019) - Bathroom Heist Scene (6/10) | Movieclips" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </span>
+        </section>
 
-    <script src="main.js"></script>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <section id="write">
+            <h1>Actors</h1>
+
+            <br>
+            <br>
+            <div class="container btn btn-warning">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="a" data-toggle="modal" data-target="#r">
+                    <img src="https://th.bing.com/th/id/OIP.HwAX94sVjBvtYSNyeZ11fQHaHa?w=213&h=213&c=7&r=0&o=5&pid=1.7"
+                        class="img_responsive image">
+                    <hr>
+                    <h2 class="text-primary">Red</h2>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="a" data-toggle="modal" data-target="#s">
+                    <img src="https://th.bing.com/th/id/OIP.2J1F--jlWISBtzEzdFyHQgHaI2?pid=ImgDet&rs=1"
+                        class="img_responsive image">
+                    <hr>
+                    <h2 class="text-primary">Silver</h2>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="a" data-toggle="modal" data-target="#e">
+                    <img src="data:image/jpeg;base64,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"
+                        class="img_responsive image">
+                    <hr>
+                    <h2 class="text-primary">Zeta</h2>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="a" data-toggle="modal" data-target="#p">
+                    <img src="https://th.bing.com/th/id/OIP.0fLH8VgwPfEXWYk2Q3-JrgHaDt?w=316&h=174&c=7&r=0&o=5&pid=1.7"
+                        class="img_responsive image">
+                    <hr>
+                    <h2 class="text-primary">King leonard</h2>
+                </div>
+
+
+
+
+                <div class="modal fade" id="r">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Red</h4>
+                            </div>
+
+                            <div class="modal-body">
+                                <img srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Jason_Sudeikis_South_by_Southwest_2019_%28cropped%29.jpg/393px-Jason_Sudeikis_South_by_Southwest_2019_%28cropped%29.jpg"
+                                    class="img-responsive img_modal">
+                                <p class="p_modal">voiced by Jason Sudeikis</p>
+
+
+
+                            </div>
+
+                            <div class="modal fade" id="s">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Silver</h4>
+                                        </div>
+
+                                        <div class="modal-body">
+                                            <img srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Rachel_Bloom_at_37th_College_Television_Awards-adj.jpg/432px-Rachel_Bloom_at_37th_College_Television_Awards-adj.jpg"
+                                                class="img-responsive img_modal">
+                                            <p class="p_modal">voiced by Rachel Bloom</p>
+
+
+
+                                        </div>
+
+                                        <div class="modal fade" id="e">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close"
+                                                            data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title">Zeta</h4>
+                                                    </div>
+
+                                                    <div class="modal-body">
+                                                        <img srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Leslie_Jones_at_The_Stress_Factory_%2843785886122%29.jpg/384px-Leslie_Jones_at_The_Stress_Factory_%2843785886122%29.jpg"
+                                                            class="img-responsive img_modal">
+                                                        <p class="p_modal">voiced by Leslie Jones</p>
+
+
+
+
+                                                    </div>
+
+                                                    <div class="modal fade" id="p">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+
+                                                                <div class="modal-header">
+                                                                    <button type="button" class="close"
+                                                                        data-dismiss="modal">&times;</button>
+                                                                    <h4 class="modal-title">Leonardo</h4>
+                                                                </div>
+
+                                                                <div class="modal-body">
+                                                                    <img srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Bill_Hader_%2829419489470%29_%28cropped%29.jpg/220px-Bill_Hader_%2829419489470%29_%28cropped%29.jpg"
+                                                                        class="img-responsive img_modal">
+                                                                    <p class="p_modal">voiced by Bill Hader</p>
+
+
+
+
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+    </center>
+
 </body>
+
 </html>
